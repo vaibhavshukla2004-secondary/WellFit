@@ -2761,29 +2761,17 @@ public class ActivityLog {
 This section outlines the 5 key application features implemented in **WellFit**. Placeholders and descriptive guidelines are provided for attaching device screenshots.
 
 ### Screenshot 1: Real-time Step Tracking & Circular Dial Gauge
-```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ ATTACH SCREENSHOT HERE ]                         |
-|                                                                       |
-|  File to attach: screenshot_1_main_dashboard.png                      |
-|                                                                       |
-+-----------------------------------------------------------------------+
-```
+
+![alt text](image.png)
+
 * **Description**: Shows the primary `MainActivity` dashboard featuring the large, prominent `CircularProgressIndicator` displaying real-time step count (e.g., `8,500`), daily goal progress percentage (e.g., `85%`), sensor status card, and the action buttons ("Pause Tracking", "Simulate Steps").
 
 ---
 
 ### Screenshot 2: Dynamic Health Metric Calculations
-```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ ATTACH SCREENSHOT HERE ]                         |
-|                                                                       |
-|  File to attach: screenshot_2_metrics_dashboard.png                   |
-|                                                                       |
-+-----------------------------------------------------------------------+
-```
+
+![alt text](image-1.png)
+
 * **Description**: Focuses on the horizontal metric card panel on the dashboard displaying dynamically calculated health metrics:
   * **Distance**: `6.35 km` (computed from user height & step count).
   * **Active Time**: `1h 34m` (computed from active step cadence).
@@ -2792,43 +2780,25 @@ This section outlines the 5 key application features implemented in **WellFit**.
 ---
 
 ### Screenshot 3: Background Step Tracking & Foreground Notification
-```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ ATTACH SCREENSHOT HERE ]                         |
-|                                                                       |
-|  File to attach: screenshot_3_foreground_notification.png             |
-|                                                                       |
-+-----------------------------------------------------------------------+
-```
+
+![alt text](image-2.png)
+
 * **Description**: Displays the Android system status bar / notification drawer showing the persistent **"WellFit Step Tracker"** foreground service notification (`"Step tracking is active in background (8,500 steps)"`), confirming that step counting continues seamlessly even when the app is minimized.
 
 ---
 
 ### Screenshot 4: Activity History Logging & Database Management
-```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ ATTACH SCREENSHOT HERE ]                         |
-|                                                                       |
-|  File to attach: screenshot_4_history_activity.png                    |
-|                                                                       |
-+-----------------------------------------------------------------------+
-```
+
+![alt text](image-3.png)
+
 * **Description**: Displays `HistoryActivity` with a list of daily activity records populated from the local SQLite database (`wellfit.db`). Shows daily date headers, step counts, linear progress bars, "Goal Met!" badges, distance, active time, calories, and the "Clear History" toolbar action menu.
 
 ---
 
 ### Screenshot 5: User Profile Customization & Dark Mode Preference
-```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ ATTACH SCREENSHOT HERE ]                         |
-|                                                                       |
-|  File to attach: screenshot_5_profile_dark_mode.png                   |
-|                                                                       |
-+-----------------------------------------------------------------------+
-```
+
+![alt text](image-4.png)
+
 * **Description**: Shows `ProfileActivity` in **Dark Mode** (`#111827` dark background with crisp white typography). Displays input fields for Full Name, Age, Gender dropdown, Height (cm), Weight (kg), Daily Step Goal target, the Dark Mode toggle switch (`SwitchMaterial`), and the "Save Profile" pill button.
 
 ---
